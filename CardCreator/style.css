@@ -1,0 +1,11 @@
+
+
+.card {
+    min-width: 20%;
+    margin: 1rem;
+    padding: 0.2rem;
+    min-height: 4em;
+    display: inline-block;
+    border-radius: 0.28rem;
+    box-shadow: 0 1px 3px gray;
+}
