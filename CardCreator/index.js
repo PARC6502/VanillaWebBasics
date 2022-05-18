@@ -1,12 +1,10 @@
 let adder = document.getElementById("add-card")
 let area = document.getElementById("card-area")
-let count = 1
+let template = document.getElementById('card')
+let cards = document.getElementsByClassName('card')
 
 adder.onclick = function() {
-    let newCard = document.createElement("div")
-    let cardTitle = document.createElement("h3").appendChild(document.createTextNode("New Title " + count))
-    newCard.appendChild(cardTitle)
-    newCard.classList.add("card")
+    let newCard = template.content.firstElementChild.cloneNode(true)
+    newCard.querySelector('h3').appendChild(document.createTextNode("New Title " + (cards.length+1)))
     area.appendChild(newCard)
-    count++
 }

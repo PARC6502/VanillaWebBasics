@@ -1,11 +1,17 @@
-
+#card-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    margin-top: 0.5rem;
+}
 
 .card {
-    min-width: 20%;
-    margin: 1rem;
-    padding: 0.2rem;
-    min-height: 4em;
-    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 0.28rem;
-    box-shadow: 0 1px 3px gray;
+    box-shadow: 0 0px 3px 1px gray;
+}
+
+.card h3 {
+    margin: 0;
 }
