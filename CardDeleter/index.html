@@ -9,33 +9,28 @@
     <title>Card Deleter</title>
 </head>
 <body>
-    <a href="/index.html">Home page</a>
-    <h2>Card deleter</h2>
-    <p>Cards with buttons that delete the card. Placed in a grid layout</p>
+    <header>
+        <a href="/index.html">Home page</a>
+        <h2>Card deleter</h2>
+        <p>Cards with buttons that delete the card. Placed in a grid layout</p>
+        <form action="" id="card-creator">
+            <input type="text" name="card-title" id="card-title-input" placeholder="Card Title">
+            <button>Create card</button>
+        </form>
+    </header>
     <hr>
-    <div class="wrapper">
-        <div class="card">
-            <div class="title"><h3>Card 1</h3></div>
-            <div class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum soluta odit distinctio! Rem natus aliquam voluptate neque? Voluptatibus libero cupiditate reiciendis dolores, nisi repellendus obcaecati molestias harum vitae pariatur veniam a id sequi vero magni officiis. Commodi, consequuntur. Iusto ab quaerat nesciunt beatae minima optio perspiciatis dolorum rem voluptatum ipsum?</div>
-            <div class="buttons">
-                <button class="deletebutton"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="title"><h3>Card 2</h3></div>
-            <div class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum soluta odit distinctio! Rem natus aliquam voluptate neque? Voluptatibus libero cupiditate reiciendis dolores, nisi repellendus obcaecati molestias harum vitae pariatur veniam a id sequi vero magni officiis. Commodi, consequuntur. Iusto ab quaerat nesciunt beatae minima optio perspiciatis dolorum rem voluptatum ipsum?</div>
-            <div class="buttons">
-                <button class="deletebutton"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="title"><h3>Card 3</h3></div>
-            <div class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum soluta odit distinctio! Rem natus aliquam voluptate neque? Voluptatibus libero cupiditate reiciendis dolores, nisi repellendus obcaecati molestias harum vitae pariatur veniam a id sequi vero magni officiis. Commodi, consequuntur. Iusto ab quaerat nesciunt beatae minima optio perspiciatis dolorum rem voluptatum ipsum?</div>
-            <div class="buttons">
-                <button class="deletebutton"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-        </div>
+    <div id="wrapper">
+        
     </div>
+    <template>
+        <div class="card">
+            <div class="title"><h3></h3></div>
+            <div class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum soluta odit distinctio! Rem natus aliquam voluptate neque? Voluptatibus libero cupiditate reiciendis dolores, nisi repellendus obcaecati molestias harum vitae pariatur veniam a id sequi vero magni officiis. Commodi, consequuntur. Iusto ab quaerat nesciunt beatae minima optio perspiciatis dolorum rem voluptatum ipsum?</div>
+            <div class="buttons">
+                <button class="deletebutton"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </template>
     <script src="index.js"></script>
 </body>
 </html>
