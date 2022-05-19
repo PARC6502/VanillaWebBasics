@@ -1,3 +1,9 @@
+header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
 #wrapper {
     display: grid;
     grid-template-columns: 15% 85%;
@@ -6,7 +12,7 @@
 #new-todo {
     border: none;
     box-shadow: 0 0 1.5px gray;
-    padding: 0.25em 0.75em;
+    padding: 0.25rem 0.75rem;
 }
 
 
