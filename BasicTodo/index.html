@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a96a8f05a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Todo</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h2>Basic Todo</h2>
+            <details>
+                <summary>Features</summary>
+                <ul>
+                    <li>Create todo</li>
+                    <li>Mark todo as done</li>
+                    <li>Delete todo</li>
+                    <li>Hide done todos</li>
+                </ul>
+            </details>
+            <form id="todo-creator">
+                <input type="text" id="todo-title">
+                <button>Create todo</button>
+            </form>
+            <div>
+                <label for="hide-done-check">Hide done</label>
+                <input type="checkbox" name="hide-done-check" id="hide-done-check">
+            </div>
+            
+        </header>
+        <div id="todo-container">
+
+        </div>
+    </div>
+    <template id="item-template">
+        <div class="item">
+            <button class="item-delete"><i class="fa-solid fa-trash-can"></i></button>
+            <p class="item-text"></p>
+            <input type="checkbox" name="done" class="item-tick">
+        </div>
+    </template>
+    <script src="index.js"></script>
+</body>
+</html>

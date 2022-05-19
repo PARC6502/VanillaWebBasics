@@ -1,0 +1,57 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+#new-todo {
+    border: none;
+    box-shadow: 0 0 1.5px gray;
+    padding: 0.25em 0.75em;
+}
+
+.item-delete {
+    border: none;
+    color: red;
+    background-color: white;
+    font-size: 2em;
+}
+
+.item-delete:hover {
+    font-size: 2.1em;
+}
+
+.item-delete:active {
+    color: rgba(200, 0, 0, 0.8);
+    font-size: 1.9em;
+}
+
+.item-delete:active i {
+    box-shadow: 0 0 0.3px gray;
+}
+
+.done {
+    filter: grayscale(50%);
+}
+
+.done .item-text {
+    text-decoration: line-through;
+}
+
+div.item.done.hidden {
+    display: none;
+}
+
+#todo-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    column-gap: 1em;
+    padding: 0.5em 0.25em;
+    margin: 0.5em 0;
+    box-shadow: 1px 1px 1.5px darkred, -1px -1px 0.5px lightgray;
+}
