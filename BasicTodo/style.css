@@ -9,24 +9,21 @@
     padding: 0.25em 0.75em;
 }
 
-.item-delete {
-    border: none;
-    color: red;
-    background-color: white;
-    font-size: 2em;
+
+#todo-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
 }
 
-.item-delete:hover {
-    font-size: 2.1em;
-}
-
-.item-delete:active {
-    color: rgba(200, 0, 0, 0.8);
-    font-size: 1.9em;
-}
-
-.item-delete:active i {
-    box-shadow: 0 0 0.3px gray;
+.item {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    column-gap: 1em;
+    padding: 0.1em 0.25em;
+    margin: 0.5em 0;
+    box-shadow: 1px 1px 1.5px darkred, -1px -1px 0.5px lightgray;
+    align-items: center;
 }
 
 .done {
@@ -41,17 +38,31 @@ div.item.done.hidden {
     display: none;
 }
 
-#todo-container {
-    display: flex;
-    flex-direction: column;
-    max-width: 900px;
+.item-delete {
+    border: none;
+    color: red;
+    background-color: white;
+    font-size: 1.75em;
 }
 
-.item {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    column-gap: 1em;
-    padding: 0.5em 0.25em;
-    margin: 0.5em 0;
-    box-shadow: 1px 1px 1.5px darkred, -1px -1px 0.5px lightgray;
+.item-delete:hover {
+    font-size: 1.8em;
+}
+
+.item-delete:active {
+    color: rgba(200, 0, 0, 0.8);
+    font-size: 1.7em;
+}
+
+.item-delete:active i {
+    box-shadow: 0 0 0.3px gray;
+}
+
+.item-text {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.item-tick {
+    height: 1.75em;
 }
