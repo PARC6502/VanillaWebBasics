@@ -9,19 +9,19 @@ Will not be using any JS frameworks like React. Might use some css framework lik
 
 ## Possible next pages
 
-[] Timer
-[] Stop watch
-[] Editable cards
-[] Basic Modal
-[] Basic webcomponent
-[] Basic responsive page
-[] Form with validation
-[] Something with css animations
-[] Pomodoro timer
-[] Time tracker
-[] Basic text adventure
-[] Matching game
-[] Meditation timer + calming animation + breathing prompts
-[] Calculator
-[] Currency converter
-[] Daily schedule creator
+- [ ] Timer
+- [ ] Stop watch
+- [ ] Editable cards
+- [ ] Basic Modal
+- [ ] Basic webcomponent
+- [ ] Basic responsive page
+- [ ] Form with validation
+- [ ] Something with css animations
+- [ ] Pomodoro timer
+- [ ] Time tracker
+- [ ] Basic text adventure
+- [ ] Matching game
+- [ ] Meditation timer + calming animation + breathing prompts
+- [ ] Calculator
+- [ ] Currency converter
+- [ ] Daily schedule creator
