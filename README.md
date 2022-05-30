@@ -14,6 +14,7 @@ Will not be using any JS frameworks like React. Might use some css framework lik
 - [ ] Editable cards
 - [ ] Basic Modal
 - [ ] Basic webcomponent
+- [ ] Colour picker (rgb, hsl, hex)
 - [ ] Basic responsive page
 - [ ] Form with validation
 - [ ] Something with css animations

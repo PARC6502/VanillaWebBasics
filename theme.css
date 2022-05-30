@@ -1,4 +1,4 @@
-/* Taken from the VSCode github theme (https://github.com/vscodethemes/web/blob/main/app/styles/global.css) */
+/* Adapted from the VSCode github theme (https://github.com/vscodethemes/web/blob/main/app/styles/global.css) */
 @font-face {
     font-family: "SourceSansPro";
     src: url("/fonts/SourceSansPro-Regular.ttf") format(truetype);
@@ -33,6 +33,7 @@
     --color-background-raised: hsl(0, 0%, 98%);
 
     --color-primary: hsl(200.5, 100%, 50%);
+    --color-offwhite: hsla(300, 95%, 95%, 0.95);
 
     --color-links: hsl(200, 100%, 50%);
     --color-links-hover: hsl(200, 100%, 50%);
