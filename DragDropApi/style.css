@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#card {
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid black;
+    position: relative;
+}
